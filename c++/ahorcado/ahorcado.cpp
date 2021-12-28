@@ -76,7 +76,7 @@ int main()
 	return 0;
 }
 
-//Funci�n que lee el fichero y rellena el vector "words" con todas las palabras
+//Función que lee el fichero y rellena el vector "words" con todas las palabras
 void fich_palabra(Vector words, int & totalpalabras)
 {
 	ifstream palabras;
@@ -127,7 +127,7 @@ void menu(int & opcion)
 	cout << endl;
 }
 
-//Función que muestra por pantalla las estad�sticas de las partidas anteriores
+//Función que muestra por pantalla las estadísticas de las partidas anteriores
 void opcion1(formato estadistica)
 {
 	cout << "Numero de partidas jugadas: " << estadistica.n_partidas << endl;
@@ -148,7 +148,7 @@ void opcion3(formato & estadistica, matriz horca, Vector words, int totalpalabra
 	int N;
 	string palabra_oculta;
 	
-	//Genera un n�mero aleatorio
+	//Genera un número aleatorio
 	srand(time(0));
     N = rand() % (totalpalabras);
     
