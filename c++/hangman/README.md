@@ -11,4 +11,4 @@ When executed, the user is presented with a menu with different options:
 
 - Exit <br> The .exe closes
 
-> **Fun fact** This program was the first "big project" I ever did, I was 17 years old!
+> **Fun fact** This program was the first "big project" I ever did, I was 17 years old! :smirk:
