@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////
-//Autores: Mar韆 Navarro y Gabriel Chaparro //
+//Autores: Mar铆a Navarro y Gabriel Chaparro //
 //            PROYECTO FINAL                //
 //////////////////////////////////////////////
 #include<iostream>
@@ -9,14 +9,14 @@
 #include<fstream>
 using namespace std;
 
-//Declaraci髇 de vectores y matriz
+//Declaraci贸n de vectores y matriz
 const int MAX = 30000;
 const int maxim = 13;
 typedef string Vector[MAX];
 typedef char v_palabra[maxim];
 typedef string matriz[7][13];
 
-//Estructura de la estad韘tica
+//Estructura de la estad铆stica
 struct formato
 {
 	string palabra_intento;
@@ -76,7 +76,7 @@ int main()
 	return 0;
 }
 
-//Funci髇 que lee el fichero y rellena el vector "words" con todas las palabras
+//Funci锟絥 que lee el fichero y rellena el vector "words" con todas las palabras
 void fich_palabra(Vector words, int & totalpalabras)
 {
 	ifstream palabras;
@@ -89,14 +89,14 @@ void fich_palabra(Vector words, int & totalpalabras)
 		while(!palabras.eof())
 		{
 			palabras >> words[totalpalabras];
-			totalpalabras++; 							//N鷐ero final de palabras
+			totalpalabras++;    //N煤mero final de palabras
 		}
 	}
 	
 	palabras.close();
 }
 
-//Funci髇 que lee el fichero y inserta los datos en la estructura
+//Funci贸n que lee el fichero y inserta los datos en la estructura
 void fich_estadistica(formato & estadistica)
 {
 	ifstream estadisticas;
@@ -115,7 +115,7 @@ void fich_estadistica(formato & estadistica)
 	estadisticas.close();
 }
 
-//Funci髇 que muestra por pantalla las opciones y recibe la seleccionada
+//Funci贸n que muestra por pantalla las opciones y recibe la seleccionada
 void menu(int & opcion)
 {
 	cout << endl << "SELECCIONE UNA OPCION: " << endl << endl;;
@@ -127,14 +127,14 @@ void menu(int & opcion)
 	cout << endl;
 }
 
-//Funci髇 que muestra por pantalla las estad韘ticas de las partidas anteriores
+//Funci贸n que muestra por pantalla las estad锟絪ticas de las partidas anteriores
 void opcion1(formato estadistica)
 {
 	cout << "Numero de partidas jugadas: " << estadistica.n_partidas << endl;
 	cout << "Numero de partidas ganadas: " << estadistica.n_victorias << endl;
 }
 
-//Funci髇 que inicia el juego con la palabra de la partida anterior
+//Funci贸n que inicia el juego con la palabra de la partida anterior
 void opcion2(formato & estadistica, matriz horca)
 {
 	string palabra_oculta = estadistica.palabra_intento;
@@ -142,13 +142,13 @@ void opcion2(formato & estadistica, matriz horca)
 	ahorcado(horca, palabra_oculta, estadistica);	
 }
 
-//Funci髇 que inicia el juego con una palabra nueva
+//Funci贸n que inicia el juego con una palabra nueva
 void opcion3(formato & estadistica, matriz horca, Vector words, int totalpalabras)
 {
 	int N;
 	string palabra_oculta;
 	
-	//Genera un n鷐ero aleatorio
+	//Genera un n锟絤ero aleatorio
 	srand(time(0));
     N = rand() % (totalpalabras);
     
@@ -163,7 +163,7 @@ void opcion3(formato & estadistica, matriz horca, Vector words, int totalpalabra
 	
 }
 
-//Funci髇 que escribe en el fichero los datos guardados en la estructura
+//Funci贸n que escribe en el fichero los datos guardados en la estructura
 void opcion4(formato estadistica)
 {
 	ofstream estadisticas;
@@ -181,7 +181,7 @@ void opcion4(formato estadistica)
 	estadisticas.close();
 }
 
-//Funci髇 que dibuja la horca inicial en una matriz
+//Funci贸n que dibuja la horca inicial en una matriz
 void dibujo(matriz horca)
 {
 	for(int j = 0; j < 13; j++)
@@ -210,7 +210,7 @@ void dibujo(matriz horca)
 		
 }
 
-//Funci髇 del juego
+//Funci贸n del juego
 void ahorcado(matriz horca, string palabra_oculta, formato & estadistica)
 {
 	v_palabra oculto;
@@ -223,7 +223,7 @@ void ahorcado(matriz horca, string palabra_oculta, formato & estadistica)
 	
 	dibujo(horca);
 	
-	//Escribe en el vector "oculto" la primera y la 鷏tima letra de la palabra a adivinar y el resto se rellena con "_"
+	//Escribe en el vector "oculto" la primera y la 煤ltima letra de la palabra a adivinar y el resto se rellena con "_"
 	oculto[0] = palabra_oculta[0];
 	oculto[longitud - 1] = palabra_oculta[longitud-1];
 	
@@ -267,7 +267,7 @@ void ahorcado(matriz horca, string palabra_oculta, formato & estadistica)
 			}
 		}
 		
-		//Comprueba el n鷐ero de casillas del vector resueltas
+		//Comprueba el n锟絤ero de casillas del vector resueltas
 		for(int i = 0; i < longitud; i++)
 		{
 			if(oculto[i] != '_')
@@ -296,7 +296,7 @@ void ahorcado(matriz horca, string palabra_oculta, formato & estadistica)
 		return;
 		}
 		
-		//Dibuja las partes del ahorcado cuando la letra introducida es err髇ea y muestra el mensaje de partida perdida cuando la horca se completa
+		//Dibuja las partes del ahorcado cuando la letra introducida es err贸nea y muestra el mensaje de partida perdida cuando la horca se completa
 		if(acierto == 0 || aux == 1)
 		{
 			num_errores++;
@@ -341,7 +341,7 @@ void ahorcado(matriz horca, string palabra_oculta, formato & estadistica)
 		
 }
 
-//Funci髇 que muestra la matriz "horca" por pantalla
+//Funci贸n que muestra la matriz "horca" por pantalla
 void mostrar_horca(matriz horca)
 {
 	for(int i = 0; i< 7; i++ )
