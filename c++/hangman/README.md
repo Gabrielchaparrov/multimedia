@@ -11,4 +11,13 @@ When executed, the user is presented with a menu with different options:
 
 - Exit <br> The .exe closes
 
+## Result:
+
+Winner             |  Loser  |  Statistics
+:-------------------------:|:-------------------------:|:-------------------------:
+![Winner](https://user-images.githubusercontent.com/96742277/147650869-63d8eca7-8b70-40bd-a4b2-38058eeb13bf.PNG) | ![Loser](https://user-images.githubusercontent.com/96742277/147650448-cf8af678-5d1d-4e42-95a9-c0e8ef069044.PNG) | ![Statistics](https://user-images.githubusercontent.com/96742277/147650875-a0d44dc5-3cf4-4260-8cfb-9b81c6e81281.PNG)
+
+
 > **Fun fact** This program was the first "big project" I ever did, I was 17 years old! :star2:
+
+
