@@ -20,7 +20,7 @@ As the particle passes the waterline, spatter-mimicking particles are mitigated.
 
 
 - **Below the waterline:** <br>
-<img src="https://render.githubusercontent.com/render/math?math=Vs = 4 * /pi * radius * radius * radius/3"><br>
+<img src="https://render.githubusercontent.com/render/math?math=Vs = 4 * \pi * radius * radius * radius/3"><br>
 <img src="https://render.githubusercontent.com/render/math?math=friction.y = -Kr_{water} * speed.y"><br>
 
 <br>
