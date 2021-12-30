@@ -4,7 +4,7 @@ The code generates a random number **f** between 3 and 15 that determines the nu
 The particle emitter emits f particles every 250 milliseconds with the calculated path to form a symmetrical source.
 The opacity of the particles is determined by the remaining life time they have, the shorter the time, the greater the transparency.
 
-# Example: 9 arc fountain
+## Example: 9 arc fountain
 
 To obtain a correct and symmetric trajectory, each particle is assigned a number that increases as new particles are created, starting from 0. 
 For each particle, the modulus of its particle number is calculated between the number of arcs to obtain the particle number in the interval (0-8). 
