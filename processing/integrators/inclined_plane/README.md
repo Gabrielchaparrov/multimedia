@@ -6,7 +6,7 @@ When the cube reaches the end of the ramp, the program restarts.
 ## Equations
 
 <img src="https://render.githubusercontent.com/render/math?math=weight\:x= mass * gravity * cos(%5Ctheta)"><br>
-<img src="https://render.githubusercontent.com/render/math?math=weight\:x= -mass * gravity * sin(%5Ctheta)"><br>
+<img src="https://render.githubusercontent.com/render/math?math=weight\:y= -mass * gravity * sin(%5Ctheta)"><br>
 <img src="https://render.githubusercontent.com/render/math?math=friction= -k * speed"><br>
 <img src="https://render.githubusercontent.com/render/math?math=force = weight %2B friction"><br>
 
