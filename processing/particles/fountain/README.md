@@ -19,3 +19,7 @@ The objective of the previous function is to divide a quarter of a circumference
 distribute all the particles, which obtain their angle by multiplying the increment by their particle number, so it would distribute like the following sequence:<br>
 
 increment\*0, increment\*1 ... up to increment*8, thus completing the entire quarter of a circle, since **8==_form-1**.
+
+<br>
+
+[![](https://img.youtube.com/vi/dR8lbEgpZK0/0.jpg)](https://www.youtube.com/watch?v=dR8lbEgpZK0)
