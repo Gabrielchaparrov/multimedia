@@ -32,6 +32,8 @@ As the particle passes the waterline, spatter-mimicking particles are mitigated.
 
 <br>
 
+## Video
+
 [![](https://img.youtube.com/vi/6T2lh71dGA0/0.jpg)](https://www.youtube.com/watch?v=6T2lh71dGA0)
   
 
