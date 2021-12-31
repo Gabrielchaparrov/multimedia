@@ -22,4 +22,6 @@ increment\*0, increment\*1 ... up to increment*8, thus completing the entire qua
 
 <br>
 
+## Video
+
 [![](https://img.youtube.com/vi/dR8lbEgpZK0/0.jpg)](https://www.youtube.com/watch?v=dR8lbEgpZK0)
