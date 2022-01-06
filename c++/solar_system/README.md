@@ -6,3 +6,5 @@ The normal situation when we visualize a 3D scene is that it is made up of diffe
 Using the instructions **glPushMatrix()** and **glPopMatrix()** together with the affine transformations, the program draws a solar system that represents the sun in the center of the scene and revolves the Earth and Mars with their satellites in circular orbits around it. Note that Earth has one satellite and Mars has two. To do this, it uses compositions of rotations and translations to place each planet in an orbit and then compose these transformations with other translations and rotations to place their moons using **glPushMatrix()** and **glPopMatrix()**. It encapsulates the movement of each "Planet + Satellites" system within **glPushMatrix()** and **glPopMatrix()** instructions to make the movements of these systems independent. I didn't really worry about the radious of the orbits or the scales of the celestial bodies, this project is about composing orbital movements, even if they are not faithful to reality.
 
 ## Result:
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/96742277/148402971-e6820279-7bd3-490c-8095-8da298fadea0.gif)
