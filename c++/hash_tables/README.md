@@ -1,4 +1,5 @@
 
+
 # Hash Tables
 
 Implementation of a program that allows you to determine whether a string of characters can be a secure password or not. A password is valid (secure) if:
@@ -26,10 +27,76 @@ This project manages scatter tables. In order to analyze how the choice of the t
 Test of the program with the strings: "locomotora1", "agu25a", "ordenador2", "sssssss22ss", "4rarbrcrd", "sal9ypimienta" and "programmer2". For each of them, the program indicates if it is a valid password. In the case of a non-secure password, the program must indicate the reason.
 
 ### Result:
+```
+********** TAREA 2 **********
+Contrasena: locomotora1
+No valida. Pertence al diccionario de la lengua espanola.
 
+Contrasena: agu25a
+No valida. La contrase±a debe tener almenos 8 caracteres.
+
+Contrasena: ordena2dor
+No valida. Pertence al diccionario de la lengua espanola.
+
+Contrasena: sssssss22ss
+No valida. La contrasena debe tener un y solo un digito.
+
+Contrasena: 4rarbrcrd
+Es valida
+
+Contrasena: sal9ypimienta
+Es valida
+
+Contrasena: programmer2
+Es valida
+```
 
 ## Task 3: Compare the hash functions
 Extends the definition of the Table class to keep a counter for the number of collisions and to determine the load factor.
 
 ### Result:
+```
+********** TAREA 3 **********
+***** Hash 1 *****
+Tama±o: 281
+Colisiones: 91375
+Factor de carga: 316
 
+Tama±o: 541
+Colisiones: 91115
+Factor de carga: 164
+
+Tama±o: 1069
+Colisiones: 90595
+Factor de carga: 83
+
+Tama±o: 2903
+Colisiones: 90039
+Factor de carga: 30
+
+Tama±o: 5939
+Colisiones: 90039
+Factor de carga: 14
+
+
+***** Hash 2 *****
+Tama±o: 281
+Colisiones: 91364
+Factor de carga: 326
+
+Tama±o: 541
+Colisiones: 88579
+Factor de carga: 169
+
+Tama±o: 1069
+Colisiones: 84194
+Factor de carga: 85
+
+Tama±o: 2903
+Colisiones: 46758
+Factor de carga: 31
+
+Tama±o: 5939
+Colisiones: 29052
+Factor de carga: 15
+```
