@@ -20,3 +20,11 @@ From there the program allows the player to perform card movements between the d
 	- When they contain a card, only one of a different suit and a lower unit can be placed from any pile except the deck.
 
 # Result
+
+Initial Stage             |  Playing  |  Winner
+:-------------------------:|:-------------------------:|:-------------------------:
+![Initial](https://user-images.githubusercontent.com/96742277/149896326-1c93cf70-a85a-446f-a6f4-e59e5eed7041.JPG) | ![Playing](https://user-images.githubusercontent.com/96742277/149896424-926238c2-da7a-456d-94f5-30e5c5a9ac7d.JPG) | ![Winner](https://user-images.githubusercontent.com/96742277/149896486-a43fa96a-5861-4b8a-805e-11c8ff885bc7.JPG)
+
+
+
+
