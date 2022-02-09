@@ -27,7 +27,13 @@ Login Page             |  Menu
 
 <br>
 
-Products | Orders | Sorted orders (User=2)
-:-------------------------:|:-------------------------:|:-------------------------:
- ![productos](https://user-images.githubusercontent.com/96742277/153246658-657de8db-2953-4b01-915e-6efb1fb96c1d.JPG) | ![phppedidos](https://user-images.githubusercontent.com/96742277/153246676-8836f085-fc85-499b-aa88-457ee20717e9.JPG) | ![phppedidos2](https://user-images.githubusercontent.com/96742277/153246686-72710e4e-3ced-4b96-ad78-0bc2430cbb86.JPG)
+Products |
+:-------------------------:|
+ ![productos](https://user-images.githubusercontent.com/96742277/153246658-657de8db-2953-4b01-915e-6efb1fb96c1d.JPG) 
+ 
+ <br>
+ 
+ Orders | Sorted orders (User=2)
+:-------------------------:|:-------------------------:
+![phppedidos](https://user-images.githubusercontent.com/96742277/153246676-8836f085-fc85-499b-aa88-457ee20717e9.JPG) | ![phppedidos2](https://user-images.githubusercontent.com/96742277/153246686-72710e4e-3ced-4b96-ad78-0bc2430cbb86.JPG)
 
