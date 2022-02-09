@@ -22,11 +22,12 @@ The objective of this practice is to use PHP to develop the necessary elements t
 
 Login Page             |  Menu  
 :-------------------------:|:-------------------------:|
-1 | 2 
-
-<br><br>
+ ![php1](https://user-images.githubusercontent.com/96742277/153246535-049e7335-050f-4287-a870-c58496d940ac.JPG) | ![php2](https://user-images.githubusercontent.com/96742277/153246551-f7ae8745-511d-4d7d-885d-3d80d66b4cea.JPG)
 
 
-Products | Orders | Sorted orders
+<br>
+
+Products | Orders | Sorted orders (User=2)
 :-------------------------:|:-------------------------:|:-------------------------:
-1 | 2 | 3 
+ ![productos](https://user-images.githubusercontent.com/96742277/153246658-657de8db-2953-4b01-915e-6efb1fb96c1d.JPG) | ![phppedidos](https://user-images.githubusercontent.com/96742277/153246676-8836f085-fc85-499b-aa88-457ee20717e9.JPG) | ![phppedidos2](https://user-images.githubusercontent.com/96742277/153246686-72710e4e-3ced-4b96-ad78-0bc2430cbb86.JPG)
+
