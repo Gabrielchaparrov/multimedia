@@ -6,25 +6,25 @@ As the particle passes the waterline, spatter-mimicking particles are mitigated.
 ## Equations
 
 - **On the waterline:** <br>
-<img src="https://render.githubusercontent.com/render/math?math=height= position.y %2B radio - height/2"><br>
-<img src="https://render.githubusercontent.com/render/math?math=a= sqrt(2 * height * radio - height^2)"><br>
-<img src="https://render.githubusercontent.com/render/math?math=Vs= (3 * a^2 %2B height^2) * \pi * height/6"><br>
-<img src="https://render.githubusercontent.com/render/math?math=friction.y= -Kr_{water} * speed.y"><br>
+$height= position.y %2B radio - height/2$<br>
+$a= sqrt(2 * height * radio - height^2)$<br>
+$Vs= (3 * a^2 %2B height^2) * \pi * height/6$<br>
+$friction.y= -Kr_{water} * speed.y$<br>
 
  
 
 - **Above the waterline:** <br>
-<img src="https://render.githubusercontent.com/render/math?math=Vs = 0"><br>
-<img src="https://render.githubusercontent.com/render/math?math=friction.y = -Kr_{air} * speed.y"><br>
+$Vs = 0$<br>
+$friction.y = -Kr_{air} * speed.y$<br>
 
 
 
 - **Below the waterline:** <br>
-<img src="https://render.githubusercontent.com/render/math?math=Vs = 4 * \pi * radius * radius * radius/3"><br>
-<img src="https://render.githubusercontent.com/render/math?math=friction.y = -Kr_{water} * speed.y"><br>
+$Vs = 4 * \pi * radius * radius * radius/3$<br>
+$friction.y = -Kr_{water} * speed.y$<br>
 
 <br>
-<img src="https://render.githubusercontent.com/render/math?math=flotation= -density * gravity * Vs"><br>
+$flotation= -density * gravity * Vs$<br>
 
 
 
