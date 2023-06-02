@@ -5,14 +5,14 @@ In this program, the force that is exerted on the spring when it is displaced wi
 ## Equations
 
 $weight= mass * gravity$<br>
-$elongation= actual\:length - rest\:length$<br>
-$(Without\:damping)\:friction= -ks * elongation$<br>
-$(With\:damping)\:friction= -ks * elongation - kd * speed$<br>
+$elongation= actual\\_length - rest\\_length$<br>
+$(Without\\ damping) friction= -ks * elongation$<br>
+$(With\\ damping) friction= -ks * elongation - kd * speed$<br>
 
-$force= weight %2B friction$<br>
+$force= weight + friction$<br>
 $acceleration= force / mass$<br>
-$speed= speed %2B acceleration * dt$<br>
-$current\:length = current\:length %2B speed * dt$<br>
+$speed= speed + acceleration * dt$<br>
+$current\\_length = current\\_length + speed * dt$<br>
 
 <br>
 
