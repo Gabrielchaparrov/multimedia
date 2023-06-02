@@ -6,9 +6,9 @@ As the particle passes the waterline, spatter-mimicking particles are mitigated.
 ## Equations
 
 - **On the waterline:** <br>
-$height= position.y %2B radio - height/2$<br>
+$height= position.y + radio - height/2$<br>
 $a= sqrt(2 * height * radio - height^2)$<br>
-$Vs= (3 * a^2 %2B height^2) * \pi * height/6$<br>
+$Vs= (3 * a^2 + height^2) * \pi * height/6$<br>
 $friction.y= -Kr_{water} * speed.y$<br>
 
  
@@ -23,7 +23,6 @@ $friction.y = -Kr_{air} * speed.y$<br>
 $Vs = 4 * \pi * radius * radius * radius/3$<br>
 $friction.y = -Kr_{water} * speed.y$<br>
 
-<br>
 $flotation= -density * gravity * Vs$<br>
 
 
