@@ -5,15 +5,15 @@ When the cube reaches the end of the ramp, the program restarts.
 
 ## Equations
 
-$weight\:x= mass * gravity * cos(%5Ctheta)$<br>
-$weight\:y= -mass * gravity * sin(%5Ctheta)$<br>
+$weight\\ x= mass * gravity * cos(\theta)$<br>
+$weight\\ y= -mass * gravity * sin(\theta)$<br>
 $friction= -k * speed$<br>
-$force = weight %2B friction$<br>
+$force = weight + friction$<br>
 
 
 $acceleration= force / mass$<br>
-$speed= speed %2B acceleration * dt$<br>
-$position = position %2B speed * dt$<br>
+$speed= speed + acceleration * dt$<br>
+$position = position + speed * dt$<br>
 
 <br>
 
