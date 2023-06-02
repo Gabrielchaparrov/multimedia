@@ -4,15 +4,15 @@ In this program, the force that is exerted on the spring when it is displaced wi
 
 ## Equations
 
-<img src="https://render.githubusercontent.com/render/math?math=weight= mass * gravity"><br>
-<img src="https://render.githubusercontent.com/render/math?math=elongation= actual\:length - rest\:length"><br>
-<img src="https://render.githubusercontent.com/render/math?math=(Without\:damping)\:friction= -ks * elongation"><br>
-<img src="https://render.githubusercontent.com/render/math?math=(With\:damping)\:friction= -ks * elongation - kd * speed"><br>
+$weight= mass * gravity$<br>
+$elongation= actual\:length - rest\:length$<br>
+$(Without\:damping)\:friction= -ks * elongation$<br>
+$(With\:damping)\:friction= -ks * elongation - kd * speed$<br>
 
-<img src="https://render.githubusercontent.com/render/math?math=force= weight %2B friction"><br>
-<img src="https://render.githubusercontent.com/render/math?math=acceleration= force / mass"><br>
-<img src="https://render.githubusercontent.com/render/math?math=speed= speed %2B acceleration * dt"><br>
-<img src="https://render.githubusercontent.com/render/math?math=current\:length = current\:length %2B speed * dt"><br>
+$force= weight %2B friction$<br>
+$acceleration= force / mass$<br>
+$speed= speed %2B acceleration * dt$<br>
+$current\:length = current\:length %2B speed * dt$<br>
 
 <br>
 

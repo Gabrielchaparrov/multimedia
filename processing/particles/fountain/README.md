@@ -12,10 +12,10 @@ In this way, the first 9 particles, with numbers from 0 to 8, will obtain values
 with numbers from 10 to 18, will also obtain values from 0 to 8. Knowing what number in the interval (0-9) has each particle, 
 their trajectories are assigned by the cosine for the X axis and the sine for the Y axis of the result of the following equation:
 
-- <img src="https://render.githubusercontent.com/render/math?math=(((\pi/2)/(\_form-1))*n)%2B\pi/4"><br>
+- $(((\pi/2)/(\_form-1))*n)%2B\pi/4$<br>
 
 Being **_form** the number of arcs and **n** the number from 0 to 9 that corresponds to each particle and that creates the deviation of each arc. 
-The objective of the previous function is to divide a quarter of a circumference <img src="https://render.githubusercontent.com/render/math?math=(\pi/2)"> by the number of arcs of the source to obtain the necessary increment to evenly 
+The objective of the previous function is to divide a quarter of a circumference $(\pi/2)$ by the number of arcs of the source to obtain the necessary increment to evenly 
 distribute all the particles, which obtain their angle by multiplying the increment by their particle number, so it would distribute like the following sequence:<br>
 
 increment\*0, increment\*1 ... up to increment*8, thus completing the entire quarter of a circle, since **8==_form-1**.
