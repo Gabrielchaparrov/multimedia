@@ -24,4 +24,6 @@ increment\*0, increment\*1 ... up to increment*8, thus completing the entire qua
 
 ## Video
 
-[![](https://img.youtube.com/vi/dR8lbEgpZK0/0.jpg)](https://www.youtube.com/watch?v=dR8lbEgpZK0)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=dR8lbEgpZK0" target="_blank">
+ <img src="http://img.youtube.com/vi/dR8lbEgpZK0/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="10" />
+</a>
