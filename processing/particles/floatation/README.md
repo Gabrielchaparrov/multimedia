@@ -33,6 +33,8 @@ $flotation= -density * gravity * Vs$<br>
 
 ## Video
 
-[![](https://img.youtube.com/vi/6T2lh71dGA0/0.jpg)](https://www.youtube.com/watch?v=6T2lh71dGA0)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=6T2lh71dGA0" target="_blank">
+ <img src="http://img.youtube.com/vi/6T2lh71dGA0/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="10" />
+</a>
   
 
