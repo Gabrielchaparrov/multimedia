@@ -19,5 +19,6 @@ $position = position + speed * dt$<br>
 
 ## Video
 
-[![](https://img.youtube.com/vi/1ipl-oOQFEw/0.jpg)](https://www.youtube.com/watch?v=1ipl-oOQFEw)
-
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=1ipl-oOQFEw" target="_blank">
+ <img src="http://img.youtube.com/vi/1ipl-oOQFEw/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="10" />
+</a>
